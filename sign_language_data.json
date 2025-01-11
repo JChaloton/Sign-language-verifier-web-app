@@ -3,22 +3,18 @@
     "greetings",
     "numbers",
     "colors"
-    // Add more categories
   ],
   "words": {
     "greetings": [
       "Hello",
       "Goodbye",
       "Thank you"
-      // Add more words
     ],
     "numbers": [
       "One",
       "Two",
       "Three"
-      // Add more words
     ]
-    // Add more categories and their words
   },
   "videos": [
     {
@@ -35,6 +31,5 @@
       "category": "greetings",
       "word": "Hello"
     }
-    // Add more videos
   ]
 }
