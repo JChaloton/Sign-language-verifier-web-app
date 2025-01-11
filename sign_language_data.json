@@ -1,0 +1,40 @@
+{
+  "categories": [
+    "greetings",
+    "numbers",
+    "colors"
+    // Add more categories
+  ],
+  "words": {
+    "greetings": [
+      "Hello",
+      "Goodbye",
+      "Thank you"
+      // Add more words
+    ],
+    "numbers": [
+      "One",
+      "Two",
+      "Three"
+      // Add more words
+    ]
+    // Add more categories and their words
+  },
+  "videos": [
+    {
+      "id": "hello_signer1",
+      "videoPath": "./videos/hello_signer1.mp4",
+      "signer": "1",
+      "category": "greetings",
+      "word": "Hello"
+    },
+    {
+      "id": "hello_signer2",
+      "videoPath": "./videos/hello_signer2.mp4",
+      "signer": "2",
+      "category": "greetings",
+      "word": "Hello"
+    }
+    // Add more videos
+  ]
+}

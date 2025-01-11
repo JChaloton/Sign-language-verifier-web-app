@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Language Verifier</title>
+</head>
+<body>
+    <div class="container">
+        <div class="progress">
+            <span id="currentVideo">1</span> / <span id="totalVideos">0</span>
+        </div>
+
+        <div class="video-container">
+            <video id="videoPlayer" controls>
+                Your browser does not support the video element.
+            </video>
+        </div>
+          
+        <div class="form-group">
+            <div class="form-group">
+                <label for="signerSelect">Signer Number:</label>
+                <select id="signerSelect" disabled>
+                    <option value="">Select Signer</option>
+                </select>
+            </div>
+                <label for="categorySelect">Category:</label>
+                <select id="categorySelect" disabled>
+                    <option value="">Select Category</option>
+                </select>
+                <label for="wordSelect">Word:</label>
+                <select id="wordSelect" disabled>
+                    <option value="">Select Word</option>
+                </select>
+        </div>
+
+        <div class="buttons">
+            <button id="correctBtn">Correct</button>
+            <button id="wrongBtn">Wrong</button>
+            <button id="saveBtn">Save Changes</button>
+        </div>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+</html>
